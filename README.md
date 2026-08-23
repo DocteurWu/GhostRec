@@ -20,7 +20,7 @@
 > ❌ **MISUSE STRICTLY FORBIDDEN:** This software MUST NEVER be used for malicious surveillance, spying, voyeurism, unlawful harassment, invasion of privacy, or any harmful acts.
 >
 > ⚠️ **TOTAL DISCLAIMER OF LIABILITY:**  
-> The developer (**Louaï Hamlat**) formally **declines and disclaims all responsibility and legal liability** for any diverted, abusive, unauthorized, or illegal use of this software by third parties. Every user is solely responsible for ensuring that their use complies with all applicable local, national, and international laws regarding audio/video recording and privacy consent.
+> The developer formally **declines and disclaims all responsibility and legal liability** for any diverted, abusive, unauthorized, or illegal use of this software by third parties. Every user is solely responsible for ensuring that their use complies with all applicable local, national, and international laws regarding audio/video recording and privacy consent.
 
 ---
 
