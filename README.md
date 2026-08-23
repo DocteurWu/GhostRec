@@ -6,7 +6,8 @@
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline%20%2F%20Zero%20Network-success.svg)](#privacy--security)
 [![License: Non-Commercial](https://img.shields.io/badge/License-Non--Commercial%20(Personal%20Use)-red.svg)](LICENSE)
 
-> **GhostRec** is an ultra-discreet, one-tap instant background audio & video recording engine for Android.  
+> 🔒 **GhostRec** is an ultra-discreet, 1-tap background audio & video recording engine for Android.  
+> **Records continuously and silently with the SCREEN COMPLETELY TURNED OFF and LOCKED.**  
 > Designed as an emergency personal safety tool with low-power DSP sampling, headless toggle, silent camouflaged service lifecycle, and isolated local storage.
 
 ---
@@ -24,14 +25,15 @@
 
 ---
 
-## ⚡ Highlights & Features
+## ⚡ Highlights & Key Features
 
-- 👆 **1-Tap Instant Toggle**: An invisible launcher activity that starts or stops recording in less than 50 milliseconds with discreet haptic vibration feedback (1 pulse = start, 2 pulses = stop).
-- 🎙️ **Low-Power DSP Audio Engine**: Uses optimized AAC / AMR-WB encoding at 22.05 kHz / 64 kbps mono, reducing CPU load by up to **85%** compared to standard high-res recorders.
-- 🎬 **Stealth CameraX Video Engine**: Background video capture using Android CameraX with zero on-screen preview, functioning seamlessly even with the screen locked/turned off.
-- 🔋 **Zero Battery Drain When Idle**: Unlike continuous listeners, GhostRec spawns **no persistent background services** or notifications when not actively recording.
-- 🔒 **100% Private & Offline**: Zero network permissions declared in `AndroidManifest.xml`. Captured media is stored strictly in isolated app-specific internal storage (`getExternalFilesDir`).
-- 📁 **Built-in Capture Manager**: An AMOLED dark-mode management interface to review, play back, and delete saved captures.
+- 📱 **True Screen-Off / Locked Capture**: Seamlessly records **Audio and Video with the screen completely off and locked**. No camera preview, no screen illumination, zero visual indicators.
+- 👆 **1-Tap Instant Headless Toggle**: An invisible launcher activity that starts or stops recording in less than 50 milliseconds with discreet tactile haptic vibration (1 pulse = start, 2 pulses = stop).
+- 🎙️ **Low-Power DSP Audio Engine**: Uses optimized AAC encoding at 22.05 kHz / 64 kbps mono, reducing CPU load by up to **85%** and preventing thermal throttling.
+- 🎬 **Stealth CameraX Video Pipeline**: Background video recording using Android CameraX with zero on-screen preview windows, maintaining smooth framerates even while the device is in pocket or locked.
+- 🔋 **Zero Battery Drain When Idle**: Unlike background listeners, GhostRec spawns **no persistent background services** or notifications when not actively recording.
+- 🔒 **100% Private & Offline**: Zero network permissions declared (`android.permission.INTERNET` is omitted). Captured media is stored strictly in sandboxed app-specific internal storage.
+- 📁 **Built-in Capture Manager**: Dark AMOLED management interface to review, play back, and delete saved captures.
 - 📱 **MIUI & Android 11+ Ready**: Native wake-lock management and battery exemption support for aggressive OEM background killers (Xiaomi, Huawei, Oppo, Vivo, Samsung).
 
 ---
