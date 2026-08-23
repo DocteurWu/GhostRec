@@ -4,7 +4,7 @@
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin%201.9-blue.svg)](https://kotlinlang.org)
 [![Gradle](https://img.shields.io/badge/Build-Gradle%208.4%20%2F%20JDK%2017-blueviolet.svg)](https://gradle.org)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline%20%2F%20Zero%20Network-success.svg)](#privacy--security)
-[![License](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
+[![License: Non-Commercial](https://img.shields.io/badge/License-Non--Commercial%20(Personal%20Use)-red.svg)](LICENSE)
 
 > **Discreet, instant, one-tap background audio and video recording engine for Android.**  
 > Designed with low-power DSP sampling, zero-latency toggle, stealth camouflaged service lifecycle, and local encrypted-like isolated storage.
@@ -128,6 +128,10 @@ Read the full engineering whitepaper:
 
 ---
 
-## 📄 License
+## 📄 License & Commercial Restrictions
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under a **Custom Non-Commercial / Source-Available License** — see the [LICENSE](LICENSE) file for full details.
+
+- ✅ **Free for personal, academic, educational, and research use.**
+- ❌ **Commercial use, monetization, or redistribution in commercial products is strictly prohibited without prior written authorization.**
+- ✉️ For commercial inquiries or custom licensing: **hamlat.louai@gmail.com**
