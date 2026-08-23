@@ -1,5 +1,7 @@
 # 👻 GhostRec — Android Stealth Capture & Personal Safety Engine
 
+[![Download APK](https://img.shields.io/badge/📲%20Download%20APK-GhostRec%20v1.0.0%20(Direct%20Download)-success?style=for-the-badge&logo=android&logoColor=white)](https://github.com/DocteurWu/GhostRec/raw/main/release/GhostRec-debug.apk)
+
 [![Android](https://img.shields.io/badge/Platform-Android%208.0%2B-brightgreen.svg)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin%201.9-blue.svg)](https://kotlinlang.org)
 [![Gradle](https://img.shields.io/badge/Build-Gradle%208.4%20%2F%20JDK%2017-blueviolet.svg)](https://gradle.org)
@@ -9,6 +11,10 @@
 > 🔒 **GhostRec** is an ultra-discreet, 1-tap background audio & video recording engine for Android.  
 > **Records continuously and silently with the SCREEN COMPLETELY TURNED OFF and LOCKED.**  
 > Designed as an emergency personal safety tool with low-power DSP sampling, headless toggle, silent camouflaged service lifecycle, and isolated local storage.
+
+---
+
+### 📲 [👉 Click Here to Download GhostRec APK (Direct Download)](https://github.com/DocteurWu/GhostRec/raw/main/release/GhostRec-debug.apk)
 
 ---
 
