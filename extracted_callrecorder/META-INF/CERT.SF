@@ -1,0 +1,17 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA-256-Digest-Manifest: Jdz6Pkd+9gscaiweO0GJRvSI/gyvZj2OV0FE425RQws=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: zl/yC9xayuilUD8xIX2xJkDh70UGwDdwhTp1LbcpSWQ=
+
+Name: classes.dex
+SHA-256-Digest: B/KQw1qL1RKA/jcCsQ8Y16N7Rwr6XGomNQe/+bG5A+0=
+
+Name: res/drawable-xxhdpi-v4/call_recorder.png
+SHA-256-Digest: SoFN6i26jxubclQSyvj4TcLei9yKWeV3WHFgEktOdHQ=
+
+Name: resources.arsc
+SHA-256-Digest: P5LtVwm502G/HSW0A3KJ1H/SFFXweDnqfVJgXgMoxYY=
+

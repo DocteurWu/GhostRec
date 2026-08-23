@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: soong_zip
+
+Name: AndroidManifest.xml
+SHA-256-Digest: kGZfE79b/4nE4222gSqu/ZdBl64QORiMhvshzwH+Mjg=
+
+Name: classes.dex
+SHA-256-Digest: EBBFkMeS/8euG93mMPHJ1M8OfL6ppRrqjRjMJtf++q0=
+
+Name: res/drawable-xxhdpi-v4/call_recorder.png
+SHA-256-Digest: emduKW5GblkYIkcaP41k12JfY3/gikFxTa+hTAnEZ4o=
+
+Name: resources.arsc
+SHA-256-Digest: Sjpi3vxcaqH90JhLMxi+ubP5gkrsm9qF6qweCeQwckM=
+
