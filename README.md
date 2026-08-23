@@ -1,4 +1,4 @@
-# 🎙️ QuickCapture (APP-Discretos) — Android Stealth Capture & Low-Power Engine
+# 👻 GhostRec — Android Stealth Capture & Personal Safety Engine
 
 [![Android](https://img.shields.io/badge/Platform-Android%208.0%2B-brightgreen.svg)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin%201.9-blue.svg)](https://kotlinlang.org)
@@ -6,8 +6,21 @@
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline%20%2F%20Zero%20Network-success.svg)](#privacy--security)
 [![License: Non-Commercial](https://img.shields.io/badge/License-Non--Commercial%20(Personal%20Use)-red.svg)](LICENSE)
 
-> **Discreet, instant, one-tap background audio and video recording engine for Android.**  
-> Designed with low-power DSP sampling, zero-latency toggle, stealth camouflaged service lifecycle, and local encrypted-like isolated storage.
+> **GhostRec** is an ultra-discreet, one-tap instant background audio & video recording engine for Android.  
+> Designed as an emergency personal safety tool with low-power DSP sampling, headless toggle, silent camouflaged service lifecycle, and isolated local storage.
+
+---
+
+## ⚖️ Legal Disclaimer & Ethical Notice / Avertissement Légal
+
+> [!WARNING]
+> ### 🛡️ Usage strictly dedicated to Self-Protection & Personal Safety
+> **GhostRec is engineered exclusively for legitimate personal safety, emergency situations, self-defense, proof gathering in cases of harassment/threats, and authorized educational/research purposes.**
+>
+> ❌ **MISUSE STRICTLY FORBIDDEN:** This software MUST NEVER be used for malicious surveillance, spying, voyeurism, unlawful harassment, invasion of privacy, or any harmful acts.
+>
+> ⚠️ **TOTAL DISCLAIMER OF LIABILITY:**  
+> The developer (**Louaï Hamlat**) formally **declines and disclaims all responsibility and legal liability** for any diverted, abusive, unauthorized, or illegal use of this software by third parties. Every user is solely responsible for ensuring that their use complies with all applicable local, national, and international laws regarding audio/video recording and privacy consent.
 
 ---
 
@@ -16,7 +29,7 @@
 - 👆 **1-Tap Instant Toggle**: An invisible launcher activity that starts or stops recording in less than 50 milliseconds with discreet haptic vibration feedback (1 pulse = start, 2 pulses = stop).
 - 🎙️ **Low-Power DSP Audio Engine**: Uses optimized AAC / AMR-WB encoding at 22.05 kHz / 64 kbps mono, reducing CPU load by up to **85%** compared to standard high-res recorders.
 - 🎬 **Stealth CameraX Video Engine**: Background video capture using Android CameraX with zero on-screen preview, functioning seamlessly even with the screen locked/turned off.
-- 🔋 **Zero Battery Drain When Idle**: Unlike continuous listeners, QuickCapture spawns **no persistent background services** or notifications when not actively recording.
+- 🔋 **Zero Battery Drain When Idle**: Unlike continuous listeners, GhostRec spawns **no persistent background services** or notifications when not actively recording.
 - 🔒 **100% Private & Offline**: Zero network permissions declared in `AndroidManifest.xml`. Captured media is stored strictly in isolated app-specific internal storage (`getExternalFilesDir`).
 - 📁 **Built-in Capture Manager**: An AMOLED dark-mode management interface to review, play back, and delete saved captures.
 - 📱 **MIUI & Android 11+ Ready**: Native wake-lock management and battery exemption support for aggressive OEM background killers (Xiaomi, Huawei, Oppo, Vivo, Samsung).
@@ -50,7 +63,7 @@ graph TD
 ## 📦 Project Structure
 
 ```text
-APP-Discretos/
+GhostRec/
 ├── app/
 │   ├── src/main/
 │   │   ├── java/com/example/quickcapture/
@@ -71,9 +84,10 @@ APP-Discretos/
 ├── DOCS/
 │   └── android_call_recording_deepdive.md    # Reverse-engineering study on MediaTek/MIUI Audio HAL
 ├── release/
-│   └── QuickCapture-debug.apk                # Ready-to-install standalone APK
+│   └── GhostRec-debug.apk                    # Ready-to-install standalone APK
 ├── build.gradle.kts                          # Root build script
 ├── gradle.properties                         # JBR JDK 17 & JVM configuration
+├── LICENSE                                   # Non-Commercial License
 └── README.md
 ```
 
@@ -87,11 +101,11 @@ Connect your Android phone with USB Debugging enabled:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/QuickCapture-Android.git
-cd QuickCapture-Android
+git clone https://github.com/your-username/GhostRec.git
+cd GhostRec
 
 # Install pre-built APK directly
-adb install -r release/QuickCapture-debug.apk
+adb install -r release/GhostRec-debug.apk
 ```
 
 ### Option 2: Build from Source with Gradle
